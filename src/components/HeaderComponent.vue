@@ -10,7 +10,7 @@ import Button from "./Button.vue";
        <p className="hover:text-[#3764EA]">About</p>
      </div>
      <div>
-       <Button label="Email Me"/>
+       <Button label="Contact me" />
      </div>
   </div>
 </template>

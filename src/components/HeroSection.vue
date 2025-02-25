@@ -22,8 +22,8 @@ const cursorColor = computed<string>(() => {
     "Vue.js": "text-green-500",
     "React.js": "text-blue-400",
     "Node.js": "text-green-400",
-    TypeScript: "text-blue-600",
-    JavaScript: "text-yellow-400",
+    "TypeScript": "text-blue-600",
+    "JavaScript": "text-yellow-400",
   };
   return colors[texts[currentIndex.value]] || "text-blue-500";
 });
@@ -58,7 +58,7 @@ onMounted(() => {
 </script>
 <template>
   <div
-    class="h-screen flex items-center md:justify-between justify-center bg-gray-900 text-white px-[5%]"
+    class="pt-[200px] pb-[150px] flex items-center md:justify-between justify-center bg-gray-900 text-white px-[5%]"
   >
     <div class="h-[350px] absolute gao-[20px] z-10 md:relative">
       <h1
@@ -75,6 +75,7 @@ onMounted(() => {
         boundaries
       </p>
          <p class="text-[18px] sm:text-[20px] px-[5%] pt-[20px]">Click<a href="https://github.com/Honourable1234" target="_blank" rel="noopener noreferrer" class="text-blue-400 font-semibold hover:text-blue-600"> here </a>to check out my GitHub!</p>
+         <p class="text-[18px] sm:text-[20px] px-[5%] pt-[20px]">Email: Omobolaji119@gmail.com</p>
     </div>
     <div class="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] flex justify-center items-center"><RollingCube /></div>
   </div>

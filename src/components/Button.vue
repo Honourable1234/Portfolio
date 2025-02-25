@@ -22,17 +22,12 @@ defineProps({
     required: true,
   },
 });
-const emailAddress = 'omobolaji119@gmail.com';
-const subject = 'Hello Omobolaji';
-const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
 </script>
 <template>
-       <a :href="mailtoLink">
     <button
       ref="buttonRef"
-      class="bg-[#3764EA] text-[#10161F] px-[30px] py-[10px] rounded-[25px]"
+      class="bg-[#3764EA] text-[#10161F] px-[30px] py-[10px] rounded-[25px] cursor-pointer"
     >
-      {{ label }}
+      <a href="https://www.linkedin.com/in/omobolaji-ogunsola-4b8368275" target="_blank" rel="noopener"> {{ label }}</a>
     </button>
-  </a>
 </template>

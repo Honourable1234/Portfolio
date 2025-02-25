@@ -13,9 +13,11 @@ export default defineConfig({
     tailwindcss(),
     svgLoader(),
   ],
+  assetsInclude: ['**/*.lottie'],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
 })
+
