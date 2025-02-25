@@ -21,22 +21,22 @@ onMounted(() => {
   <div class="h-screen flex items-center justify-center bg-gray-900 opacity-20 sm:opacity-50">
     <div ref="cubeRef" class="cube">
       <div class="face front bg-blue-500 flex items-center justify-center">
-      Next.Js <img alt="Vue logo" src="../assets/NextLogo.svg" width="50" height="50" />
+      Next.Js
       </div>
       <div class="face back bg-green-500 flex items-center justify-center">
-      Vue.js <img alt="Vue logo" src="../assets/VueLogo.svg" width="50" height="50" />
+      Vue.js 
       </div>
       <div class="face left bg-cyan-500 flex items-center justify-center">
-      React.js <img alt="Vue logo" src="../assets/ReactLogo.svg" width="50" height="50" />
+      React.js 
       </div>
       <div class="face right bg-yellow-500 flex items-center justify-center">
-      Node.js <img alt="Vue logo" src="../assets/NodeLogo.svg" width="50" height="50" />
+      Node.js 
       </div>
       <div class="face top bg-purple-500 flex items-center justify-center">
-      TypeScript <img alt="Vue logo" src="../assets/TypeScript.svg" width="50" height="50" />
+      TypeScript 
       </div>
       <div class="face bottom bg-orange-500 flex items-center justify-center">
-      JavaScript <img alt="Vue logo" src="../assets/JavaScript.svg" width="50" height="50" />
+      JavaScript 
       </div>
     </div>
   </div>
