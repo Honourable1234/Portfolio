@@ -19,11 +19,11 @@
           <img
             :src="section.image"
             alt="Section Image"
-            class="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-50  rounded-[20px]"
+            class="absolute top-0 left-0 w-full h-full object-cover z-0  rounded-[20px]"
           />
   
           <!-- Text Content (Above Image) -->
-          <div class="relative z-10 text-center">
+          <div class="relative z-10 text-center bg-black opacity-75">
             <h2 class="text-[24px] font-black drop-shadow-lg" :style="{ color: section.textColor }">
               {{ section.title }}
             </h2>
@@ -79,49 +79,49 @@
       title: "Study Hug",
       description: "A web app to practice CBT exams for UTME students",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740439198/dkp0pumiplvgfbbet1wx.png",
-      textColor: "yellow-400",
+      textColor: "",
       link: "https://studyhug.netlify.app/"
     },
     {
       title: "Track IT",
       description: "Demo financial tracking app built with Chakra UI",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740479250/Screenshot_2025-02-25_112655_qinfjt.png",
-      textColor: "black",
+      textColor: "",
       link: "https://tractit.netlify.app/"
     },
     {
       title: "Pay-4-me",
       description: "An informative landing page for a payment app",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740479898/Screenshot_2025-02-25_113740_fgjxqz.png",
-      textColor: "black",
+      textColor: "",
       link: "https://pay-4-me.netlify.app/"
     },
     {
       title: "My stock Tracker",
       description: "Displays stock and crypto prices from an API",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740480369/Screenshot_2025-02-25_114540_pcijtd.png",
-      textColor: "#FFFFFF",
+      textColor: "",
       link: "https://mystocktrackerr.netlify.app/"
     },
     {
       title: "Wabais",
       description: "A landing page for a branding business",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740480711/Screenshot_2025-02-25_115127_oosifp.png",
-      textColor: "#32CD32",
+      textColor: "",
       link: "https://wabais.netlify.app/"
     },
     {
       title: "Nexcent",
       description: "A landing page for a branding business",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740481008/Screenshot_2025-02-25_115623_i3qahh.png",
-      textColor: "black",
+      textColor: "",
       link: "https://nexcentbyhonourable.netlify.app/"
     },
     {
       title: "Biccas",
       description: "A landing page for a Virtual assistance business",
       image: "https://res.cloudinary.com/dabihkozn/image/upload/v1740481452/Screenshot_2025-02-25_120140_vpiwyk.png",
-      textColor: "black",
+      textColor: "",
       link: " https://biccaspage.netlify.app/"
     },
   ]);
